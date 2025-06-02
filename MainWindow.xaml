@@ -1,0 +1,15 @@
+﻿<Window x:Class="АлексейПарам.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:АлексейПарам"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Margin="461,188,10,10" Source="images.jpeg" Stretch="Fill"/>
+        <Label Content="Заповедники татарстана" HorizontalAlignment="Left" Margin="178,10,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label Content="В Республике Татарстан находятся два крупных особо охраняемых природных объекта федерального значения:&#xD;&#xA; Волжско-Камский государственный природный биосферный заповедник и Национальный парк «Нижняя Кама». Волжско-Камский заповедник включает в себя два обособленных участка - Сараловский и Раифский.&#xD;&#xA; Национальный парк «Нижняя Кама» был образован в 1991 году и занимает значительную территорию. " HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" FontSize="14" Width="751" Height="229"/>
+
+    </Grid>
+</Window>
